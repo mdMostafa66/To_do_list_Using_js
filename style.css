@@ -1,0 +1,58 @@
+.title{
+    color: purple;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    margin-bottom: -60px;
+}
+#inputSec{
+    width: 300px;
+    margin: 0 auto;
+}
+input, #btn{
+    padding: 8px 12px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px 0;
+    background-color: #00000033;
+    color: #fff;
+}
+.listSec{
+    width: 300px;
+    margin: 3% auto;
+    background-color: #471d5a;
+    border-radius: 3px;
+}
+.listSec h3{
+    font-weight: 500;
+    font-style: italic;
+    color: #79db1d;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0px;
+    margin-bottom: -10px;
+}
+#oList li{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    padding: 8px 0px ;
+    width: 100%;
+    cursor: pointer;
+}
+#oList li.delete{
+    text-decoration: line-through;
+    color: red;
+}
+#oList li.delete::before {
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0px 2px 2px 0px;
+    top: 10px;
+    left: -30px;
+    width: 6px;
+    height: 12px;
+    transform: rotate(45deg);
+}
